@@ -97,4 +97,6 @@ dependencies {
     // Testing
     testImplementation(libs.mockk)
     testImplementation(libs.turbine)
+
+    implementation(libs.hilt.navigation.compose)
 }
